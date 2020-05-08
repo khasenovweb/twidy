@@ -4,6 +4,22 @@ $(document).ready(function () {
         margin: 40,
         center: true,
         loop: true,
+        responsive: {
+            0: {
+                items: 1.5,
+                margin: 20,
+            },
+            600: {
+                items: 2,
+                margin: 20,
+            },
+            1000: {
+                items: 4,
+            },
+            1600: {
+                items: 6,
+            },
+        },
     });
 
     $(".faq__tab__content").slideUp();
@@ -14,4 +30,18 @@ $(document).ready(function () {
     });
 
     var header = new Headhesive(".head");
+
+    $("a[data-role='scroll']").mPageScroll2id({
+        offset: 81,
+        onStart: function () {
+            $(".mobilenav").hide();
+        },
+    });
+
+    $(".head__hamburger").click(function () {
+        $(".mobilenav").show();
+    });
+    $(".mobilenav__close").click(function () {
+        $(".mobilenav").hide();
+    });
 });

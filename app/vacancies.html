@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Главная страница 2</title>
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.min.css" />
     <link rel="stylesheet" href="fonts/stylesheet.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
 </head>
 
 <body>
@@ -19,11 +21,16 @@
             <a href="/" class="head__logo">
                 <img src="img/logo.png" alt="" />
             </a>
+            <div class="head__hamburger">
+                <img src="img/hamburger.svg" alt="" />
+            </div>
             <ul class="head__links">
                 <li><a href="about-as.html">О нас </a></li>
                 <li><a href="vacancies.html">Вакансии</a></li>
                 <li><a href="regulations.html">Правила</a></li>
-                <li><a href="">Вопросы</a></li>
+                <li>
+                    <a data-role="scroll" href="/#questions">Вопросы</a>
+                </li>
             </ul>
         </div>
         <div class="page vacansies">
@@ -156,7 +163,7 @@
                     </div>
                     <form action="/" class="form__inline">
                         <input class="input" type="text" placeholder="Ваш номер телефона" />
-                        <button class="btn">Присоединиться</button>
+                        <button class="btn orange">Присоединиться</button>
                     </form>
                 </div>
                 <!--================================================= separator ===========================================-->
@@ -199,11 +206,29 @@
             </div>
         </div>
         <!--=================================================END footer ===========================================-->
+        <!--================================================= mobilenav ===========================================-->
+        <div class="mobilenav">
+            <div class="mobilenav__head">
+                <div class="mobilenav__title">Меню</div>
+                <img class="mobilenav__close" src="img/close.svg" alt="" />
+            </div>
+            <ul class="mobilenav__links">
+                <li><a href="/">Главная</a></li>
+                <li><a href="about-as.html">О нас </a></li>
+                <li><a href="vacancies.html">Вакансии</a></li>
+                <li><a href="regulations.html">Правила</a></li>
+                <li>
+                    <a data-role="scroll" href="/#questions">Вопросы</a>
+                </li>
+            </ul>
+        </div>
+        <!--=================================================END mobilenav ===========================================-->
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/headhesive.min.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/main.js"></script>
     <script>
         document.body.onload = function() {
