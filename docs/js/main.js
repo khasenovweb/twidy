@@ -12,4 +12,6 @@ $(document).ready(function () {
         $('[data-tab-arrow="' + id + '"]').toggleClass("active");
         $('[data-tab-content="' + id + '"]').slideToggle();
     });
+
+    var header = new Headhesive(".head");
 });

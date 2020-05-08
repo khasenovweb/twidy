@@ -12,14 +12,17 @@
 
 <body>
     <div class="global__wrapper">
+        <section id="preloader" class="preloader">
+            <div class="loader"></div>
+        </section>
         <div class="head">
             <a href="/" class="head__logo">
                 <img src="img/logo.png" alt="" />
             </a>
             <ul class="head__links">
-                <li><a href="">О нас </a></li>
-                <li><a href="">Вакансии</a></li>
-                <li><a href="">Правила</a></li>
+                <li><a href="about-as.html">О нас </a></li>
+                <li><a href="vacancies.html">Вакансии</a></li>
+                <li><a href="regulations.html">Правила</a></li>
                 <li><a href="">Вопросы</a></li>
             </ul>
         </div>
@@ -200,7 +203,18 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/headhesive.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        document.body.onload = function() {
+            setTimeout(function() {
+                var preloader = document.getElementById("preloader");
+                if (!preloader.classList.contains("preloader__hide")) {
+                    preloader.classList.add("preloader__hide");
+                }
+            }, 300);
+        };
+    </script>
 </body>
 
 </html>
