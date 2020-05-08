@@ -1,0 +1,98 @@
+{% set title = 'Главная страница 2' %} {% extends 'layouts/_main.html' %} {%
+block content %}
+
+<!--================================================= about-as ===========================================-->
+<div class="page aboutas">
+    <div class="container">
+        <h1 class="page__title">
+            Цель Twidy - создать простой, удобный и безопасный <br />
+            коммерческий канал связи.
+        </h1>
+        <div class="page__desc">
+            Ежедневно мы обеспечиваем тысячей фанатов возможностью связаться со
+            своими <br />
+            кумирами, провести консультацию у экспертов, <br />
+            получить персонализированные видео поздравления.
+        </div>
+    </div>
+</div>
+<div class="aboutas__wrapper">
+    <img src="img/aboutas__lines.svg" alt="" class="aboutas__lines" />
+    <div class="container">
+        <div class="aboutas__items">
+            <img
+                src="img/how__work__triangle.svg"
+                alt=""
+                class="aboutas__triangle"
+            />
+
+            <!-- aboutas__item -->
+            <div class="aboutas__item">
+                <div
+                    class="aboutas__item__icon"
+                    style="background-image: url(img/aboutas__icon-1.svg);"
+                ></div>
+                <div class="aboutas__item__text">
+                    <div class="aboutas__item__title">Для прессы</div>
+                    <a
+                        href="mailto:press@contagram.ru"
+                        class="aboutas__item__contact"
+                        >press@contagram.ru</a
+                    >
+                </div>
+            </div>
+            <!--END aboutas__item -->
+            <!-- aboutas__item -->
+            <div class="aboutas__item">
+                <div
+                    class="aboutas__item__icon"
+                    style="background-image: url(img/aboutas__icon-2.svg);"
+                ></div>
+                <div class="aboutas__item__text">
+                    <div class="aboutas__item__title">Поддержка</div>
+                    <a
+                        href="mailto:press@contagram.ru"
+                        class="aboutas__item__contact"
+                        >support@contagram.ru</a
+                    >
+                </div>
+            </div>
+            <!--END aboutas__item -->
+            <!-- aboutas__item -->
+            <div class="aboutas__item">
+                <div
+                    class="aboutas__item__icon"
+                    style="background-image: url(img/aboutas__icon-3.svg);"
+                ></div>
+                <div class="aboutas__item__text">
+                    <div class="aboutas__item__title">Вакансии</div>
+                    <a
+                        href="mailto:press@contagram.ru"
+                        class="aboutas__item__contact"
+                        >jobs@contagram.ru</a
+                    >
+                </div>
+            </div>
+            <!--END aboutas__item -->
+            <!-- aboutas__item -->
+            <div class="aboutas__item">
+                <div
+                    class="aboutas__item__icon"
+                    style="background-image: url(img/aboutas__icon-4.svg);"
+                ></div>
+                <div class="aboutas__item__text">
+                    <div class="aboutas__item__title">Остальные вопросы</div>
+                    <a
+                        href="mailto:press@contagram.ru"
+                        class="aboutas__item__contact"
+                        >hello@contagram.ru</a
+                    >
+                </div>
+            </div>
+            <!--END aboutas__item -->
+        </div>
+    </div>
+</div>
+<!--=================================================END about-as ===========================================-->
+
+{% endblock %}
