@@ -342,7 +342,7 @@ body {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
-  width: 1920px;
+  width: 100%;
 }
 .how__work__triangle {
   position: absolute;
@@ -453,6 +453,7 @@ body {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 1920px;
+  width: 100%;
 }
 .start__work__item {
   background: #ffffff;
@@ -646,7 +647,6 @@ body {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 100%;
-  width: 1920px;
 }
 .mobile__app__img {
   margin-left: -40px;
