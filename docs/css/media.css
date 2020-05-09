@@ -309,4 +309,10 @@
   .mobilenav__close {
     width: 30px;
   }
+  .how__work__item__title {
+    margin-top: 20px;
+  }
+  .how__work__item.full {
+    grid-gap: 20px;
+  }
 }
