@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Главная страница 2</title>
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+    <div class="global__wrapper">
+        <section id="preloader" class="preloader">
+            <div class="loader"></div>
+        </section>
+        <div class="head">
+            <a href="/" class="head__logo">
+                <img src="img/logo.svg" alt="" />
+            </a>
+            <div class="head__hamburger">
+                <img src="img/hamburger.svg" alt="" />
+            </div>
+            <ul class="head__links">
+                <li><a href="about-as.html">О нас </a></li>
+                <li><a href="vacancies.html">Вакансии</a></li>
+                <li><a href="regulations.html">Правила</a></li>
+                <li>
+                    <a data-role="scroll" href="/#questions">Вопросы</a>
+                </li>
+                <li><a href="login.html">Авторизация</a></li>
+            </ul>
+        </div>
+        <div class="page error404">
+            <img src="img/triangle_2.svg" alt="" class="error404__triangle" />
+            <!-- <img src="img/404__lines-1.svg" alt="" class="error404__lines-1" /> -->
+            <img src="img/404__lines-2.svg" alt="" class="error404__lines-2" />
+            <img src="img/404.svg" alt="" class="error404__img" />
+        </div>
+        <!--================================================= footer ===========================================-->
+        <div class="footer">
+            <div class="container">
+                <div class="footer__offer">
+                    <div class="footer__offer__left">
+                        <div class="footer__offer__icon"></div>
+                        <div class="footer__offer__title"> Начните зарабатывать <br /> прямо сейчас </div>
+                    </div>
+                    <form action="/" class="form__inline">
+                        <input class="input" type="text" placeholder="Ваш номер телефона" />
+                        <button class="btn orange">Присоединиться</button>
+                    </form>
+                </div>
+                <!--================================================= separator ===========================================-->
+                <div class="separator violet"></div>
+                <!--=================================================END separator ===========================================-->
+                <div class="footer__center">
+                    <ul class="footer__links">
+                        <li><a href="/">hello@twidy.ru</a></li>
+                        <li><a href="/">www.twidy.ru</a></li>
+                        <li><a href="/">О нас</a></li>
+                        <li><a href="/">Вакансии</a></li>
+                        <li><a href="/">Рекомендации</a></li>
+                        <li><a href="/">Как начать работу?</a></li>
+                        <li><a href="/">Найди совего кумира</a></li>
+                        <li><a href="/">Правила</a></li>
+                        <li><a href="/">FAQ</a></li>
+                        <li><a href="/">Политика Конфиденциальности</a></li>
+                    </ul>
+                    <div class="footer__social">
+                        <div class="footer__social__title"> Мы в социальных сетях: </div>
+                        <div class="footer__social__items">
+                            <a href="" class="footer__social__item">
+                                <img src="img/footer__fb.svg" alt="" />
+                            </a>
+                            <a href="" class="footer__social__item">
+                                <img src="img/footer__ig.svg" alt="" />
+                            </a>
+                            <a href="" class="footer__social__item">
+                                <img src="img/footer__tw.svg" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="footer__listcenter">
+                    <li>ООО "Твиди"</li>
+                    <li>ИНН: 9703007454</li>
+                    <li>Россия, г. Москва, Пресненская наб. 12, офис 42</li>
+                </ul>
+                <div class="footer__copyright"> © 2019 Twidy. All Rights Reserved </div>
+            </div>
+        </div>
+        <!--=================================================END footer ===========================================-->
+        <!--================================================= mobilenav ===========================================-->
+        <div class="mobilenav">
+            <div class="mobilenav__head">
+                <div class="mobilenav__title">Меню</div>
+                <img class="mobilenav__close" src="img/close.svg" alt="" />
+            </div>
+            <ul class="mobilenav__links">
+                <li><a href="/">Главная</a></li>
+                <li><a href="about-as.html">О нас </a></li>
+                <li><a href="vacancies.html">Вакансии</a></li>
+                <li><a href="regulations.html">Правила</a></li>
+                <li>
+                    <a data-role="scroll" href="/#questions">Вопросы</a>
+                </li>
+                <li><a href="login.html">Авторизация</a></li>
+            </ul>
+        </div>
+        <!--=================================================END mobilenav ===========================================-->
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/headhesive.min.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.body.onload = function() {
+            setTimeout(function() {
+                var preloader = document.getElementById("preloader");
+                if (!preloader.classList.contains("preloader__hide")) {
+                    preloader.classList.add("preloader__hide");
+                }
+            }, 300);
+        };
+    </script>
+</body>
+
+</html>
