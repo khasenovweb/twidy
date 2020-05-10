@@ -235,7 +235,7 @@ body {
   font-size: 18px;
 }
 .hero {
-  margin-top: 130px;
+  margin-top: 60px;
 }
 .hero .container {
   display: grid;
@@ -276,7 +276,7 @@ body {
   font-size: 18px;
   margin-top: 40px;
   line-height: 30px;
-  opacity: 0.4;
+  color: #616161;
 }
 .form__inline {
   display: flex;
@@ -304,6 +304,7 @@ body {
   cursor: pointer;
   display: inline-block;
   transition: 0.3s;
+  text-align: center;
 }
 .btn:hover {
   background-color: #8673ee;
@@ -313,6 +314,10 @@ body {
 }
 .btn.orange:hover {
   background-color: #ffa71a;
+}
+.btn.white {
+  background-color: #fff;
+  color: #725ceb;
 }
 .separator {
   max-width: 961px;
@@ -769,7 +774,7 @@ body {
   text-align: center;
 }
 .page {
-  margin-top: 180px;
+  margin-top: 120px;
 }
 .page__title {
   font-weight: 600;
@@ -779,7 +784,7 @@ body {
 .page__desc {
   font-size: 24px;
   line-height: 30px;
-  color: #9f9f9f;
+  color: #616161;
   margin-top: 86px;
 }
 .aboutas__wrapper {
@@ -809,6 +814,7 @@ body {
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 30px;
+  width: 100%;
 }
 .aboutas__item {
   background: #ffffff;
@@ -835,6 +841,7 @@ body {
 }
 .aboutas__item__contact {
   font-size: 20px;
+  font-weight: 600;
   color: #646464;
   margin-top: 28px;
   display: block;
@@ -865,8 +872,9 @@ body {
   justify-content: space-between;
 }
 .vacansies__img img {
-  margin-top: -100px;
-  margin-right: -100px;
+  margin-top: -60px;
+  margin-right: -50px;
+  margin-left: 50px;
 }
 .vacansies__item {
   background: #ffffff;
@@ -962,13 +970,17 @@ body {
 }
 .regulations__hero__img img {
   margin-right: -580px;
-  margin-top: -80px;
+  margin-top: -40px;
 }
 .regulations__hero__img .regulations__laptop {
   z-index: 1;
+  width: 999px;
 }
 .regulations__hero__img * {
   position: relative;
+}
+.regulations__laptop {
+  width: 999px;
 }
 .regulations__lines {
   position: absolute;
@@ -1043,7 +1055,7 @@ body {
 }
 .registration {
   padding-bottom: 200px;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 .registration .page__title {
   text-align: center;
@@ -1104,7 +1116,7 @@ body {
   opacity: 0.7;
   width: 300px;
   margin: 0 auto;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 .registration__form form .btn {
   width: 300px;

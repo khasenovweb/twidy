@@ -163,6 +163,52 @@
   .regulations__hero__img {
     display: none;
   }
+  .registration__forms {
+    grid-template-columns: 100%;
+  }
+  .registration__form {
+    padding: 0;
+    width: 100%;
+  }
+  .registration__form.left {
+    justify-self: center;
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 80px;
+  }
+  .registration__form.left form {
+    width: 100%;
+  }
+  .registration__form__title {
+    text-align: center;
+  }
+  .registration__forms {
+    margin-top: 20px;
+  }
+  .registration {
+    margin-top: 80px;
+  }
+  .registration__form form .btn {
+    width: 100%;
+  }
+  .registration__form.right {
+    padding-top: 80px;
+    justify-self: center;
+  }
+  .registration__form__link {
+    width: 100%;
+    text-align: center;
+  }
+  .registration__form__link span {
+    flex-grow: 1;
+    padding-right: 35px;
+  }
+  .registration__form__login {
+    text-align: center;
+  }
+  .registration__form form .politics {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 600px) {
   .regulations__item {

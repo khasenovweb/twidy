@@ -104,7 +104,7 @@ body {
 }
 
 .hero {
-    margin-top: 130px;
+    margin-top: 60px;
 
     .container {
         display: grid;
@@ -155,7 +155,7 @@ body {
     font-size: 18px;
     margin-top: 40px;
     line-height: 30px;
-    opacity: 0.4;
+    color: #616161;
 }
 
 .form__inline {
@@ -187,6 +187,7 @@ body {
     cursor: pointer;
     display: inline-block;
     transition: 0.3s;
+    text-align: center;
     &:hover {
         background-color: lighten(#725ceb, 5%);
     }
@@ -195,6 +196,10 @@ body {
         &:hover {
             background-color: lighten(#ff9d00, 5%);
         }
+    }
+    &.white {
+        background-color: #fff;
+        color: #725ceb;
     }
 }
 
@@ -691,7 +696,7 @@ body {
 }
 
 .page {
-    margin-top: 180px;
+    margin-top: 120px;
 }
 .page__title {
     font-weight: 600;
@@ -701,7 +706,7 @@ body {
 .page__desc {
     font-size: 24px;
     line-height: 30px;
-    color: #9f9f9f;
+    color: #616161;
     margin-top: 86px;
 }
 .aboutas__wrapper {
@@ -729,6 +734,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     top: 30px;
+    width: 100%;
 }
 .aboutas__item {
     background: #ffffff;
@@ -755,6 +761,7 @@ body {
 }
 .aboutas__item__contact {
     font-size: 20px;
+    font-weight: 600;
     color: #646464;
     margin-top: 28px;
     display: block;
@@ -789,8 +796,9 @@ body {
 }
 .vacansies__img {
     img {
-        margin-top: -100px;
-        margin-right: -100px;
+        margin-top: -60px;
+        margin-right: -50px;
+        margin-left: 50px;
     }
 }
 
@@ -889,14 +897,18 @@ body {
     position: relative;
     img {
         margin-right: -580px;
-        margin-top: -80px;
+        margin-top: -40px;
     }
     .regulations__laptop {
         z-index: 1;
+        width: 999px;
     }
     * {
         position: relative;
     }
+}
+.regulations__laptop {
+    width: 999px;
 }
 .regulations__lines {
     position: absolute;
@@ -973,7 +985,7 @@ body {
 
 .registration {
     padding-bottom: 200px;
-    margin-top: 120px;
+    margin-top: 80px;
     .page__title {
         text-align: center;
     }
@@ -1028,7 +1040,7 @@ body {
             opacity: 0.7;
             width: 300px;
             margin: 0 auto;
-            margin-top: 90px;
+            margin-top: 30px;
         }
         .btn {
             width: 300px;
